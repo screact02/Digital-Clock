@@ -1,0 +1,102 @@
+body {
+  background-color: #f9b68d;
+  background-image: url("./images/sky-medium.jpg");
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  background-size: cover;
+}
+
+h1 {
+  color: #363d3c;
+}
+
+.container {
+  text-align: center;
+  height: 400px;
+  width: 600px;
+  display: inline-block;
+}
+
+#ticking-clock {
+  font-size: 600%;
+  color: #262c2b;
+}
+
+#current-date {
+  font-size: 300%;
+  color: #a03f37;
+}
+
+/* responsiveness for maximum device width 565 pixels*/
+@media screen and (min-width: 55px) and (max-width: 565px) {
+  body {
+    background-image: url("./images/sky-medium.jpg");
+    background-size: stretch;
+    background-repeat: no-repeat;
+    background-color: #1d1f21;
+    height: 100vh;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    display: inline-flex;
+  }
+}
+
+#ticking-clock {
+  font-size: 300%;
+  color: #262c2b;
+}
+
+#current-date {
+  font-size: 220%;
+  color: #a03f37;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  width: 500px;
+  display: flex;
+  margin-right: 0;
+}
+
+/* responsiveness for minimum device width 566 pixels */
+@media screen and (min-width: 566px) {
+  body {
+    background-image: url("./images/sky-medium.jpg");
+    background-size: stretch;
+    background-repeat: no-repeat;
+    background-color: #132212;
+    height: 100vh;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  h1 {
+    color: #363d3c;
+    font-size: 400%;
+  }
+
+  .container {
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    display: inline-block;
+  }
+
+  #ticking-clock {
+    font-size: 600%;
+    color: #262c2b;
+  }
+
+  #current-date {
+    font-size: 350%;
+    color: #8c3f38;
+  }
+}
