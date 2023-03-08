@@ -47,12 +47,12 @@ function tickingClock() {
 
   if (currentHour < 12) {
     document.getElementById("our-header").innerText =
-      "Cock-A-Doodle-Doo! Good Morning!";
+      "Good Morning!";
   }
-  if (currentHour >= 12 && currentHour < 5) {
+  if (currentHour >= 12 && currentHour < 17) {
     document.getElementById("our-header").innerText = "Good Afternoon!";
   }
-  if (currentHour > 5) {
+  if (currentHour > 17) {
     document.getElementById("our-header").innerText = "Good Evening!";
   }
 
