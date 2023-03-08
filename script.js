@@ -46,14 +46,14 @@ function tickingClock() {
   }
 
   if (currentHour < 12) {
-    document.getElementById("our-header").innerText =
+    document.getElementById("greeting").innerText =
       "Good Morning!";
   }
   if (currentHour >= 12 && currentHour < 17) {
-    document.getElementById("our-header").innerText = "Good Afternoon!";
+    document.getElementById("greeting").innerText = "Good Afternoon!";
   }
   if (currentHour > 17) {
-    document.getElementById("our-header").innerText = "Good Evening!";
+    document.getElementById("greeting").innerText = "Good Evening!";
   }
 
   cTime.innerText =
