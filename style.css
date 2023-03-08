@@ -50,7 +50,7 @@ h1 {
 }
 
 #current-date {
-  font-size: 220%;
+  font-size: 190%;
   color: #a03f37;
 }
 
@@ -80,7 +80,7 @@ h1 {
 
   h1 {
     color: #363d3c;
-    font-size: 400%;
+    font-size: 300%;
   }
 
   .container {
@@ -93,10 +93,11 @@ h1 {
   #ticking-clock {
     font-size: 600%;
     color: #262c2b;
+    margin-top: 80px;
   }
 
   #current-date {
-    font-size: 350%;
+    font-size: 300%;
     color: #8c3f38;
   }
 }
